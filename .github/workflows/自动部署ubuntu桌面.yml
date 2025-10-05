@@ -52,7 +52,7 @@ on:
 env:
   DOCKER_IMAGE: ${{ secrets.DOCKER_IMAGE || 'dorowu/ubuntu-desktop-lxde-vnc' }}
   MEMORY: ${{ secrets.MEMORY || '2048M' }}
-  DISK: ${{ secrets.DISK || '12384M' }}
+  DISK: ${{ secrets.DISK || '10240M' }}
 
 jobs:
   deploy-app:
